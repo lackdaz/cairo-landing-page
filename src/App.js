@@ -13,6 +13,11 @@ ReactGA.pageview('/');
 
 class App extends Component {
 
+initializeReactGA() {
+    ReactGA.initialize('UA-125705862-1');
+    ReactGA.pageview('/');
+}
+
   render() {
     return (
       <div className="dev-landing-page">
