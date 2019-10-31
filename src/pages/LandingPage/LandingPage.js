@@ -23,7 +23,7 @@ const LandingPage = (props, context) => {
             <img src={logo} alt="cairo stylized"/>
           </div>
           <div className="tagline">
-            Precision Bomber | Shoulder-Trapezist | Escapologist
+            Avengers Squad | Ventriloquist | Escapologist
           </div>
           <SocialIcons />
         </div>
