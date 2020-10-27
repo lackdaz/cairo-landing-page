@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ScrollToNext from '@components/ScrollToNext';
+import ScrollToNext from "@components/ScrollToNext";
 import "./style.scss";
 import logo from "@images/cairo-coconut.png";
 import moment from "moment";
-
 
 const AboutPage = (props, context) => {
     const {
@@ -48,27 +47,30 @@ const AboutPage = (props, context) => {
                                     eclectus parrot
                                 </a>
                             </span>{" "}
-                            living in Singapore. I have adopted a pair
-                            of human beings - whom I nicknamed{" "}
+                            living in Singapore. I have adopted a pair of human
+                            beings - whom I nicknamed{" "}
                             <span className="highlight"> Seth</span> &{" "}
-                            <span className="highlight"> Cleavan</span> - 
-                            and I'm working on training them, so any advice on training humans is most welcome!
+                            <span className="highlight"> Cleavan</span> - and
+                            I'm working on training them, so any advice on
+                            training humans is most welcome!
                         </p>
                         <p>
-                            A truly hatched and bred Singaporean, I currently live in{" "}
+                            A truly hatched and bred Singaporean, I currently
+                            live in{" "}
                             <span className="highlight"> Joo Chiat</span> and
                             enjoy chilling out in the East with my{" "}
-                            <i>parronts</i> (portmanteau of parrot and parent). 
-                            Say 'hi' if you see me and feel free to tag me - {" "}
+                            <i>parronts</i> (portmanteau of parrot and parent).
+                            Say 'hi' if you see me and feel free to tag me -{" "}
                             <span className="highlight">
-                            <a
+                                <a
                                     href="https://www.instagram.com/cairothedino/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                  @cairothedino
-                                  </a>
-                                  </span> - in your paparazzi photos.
+                                    @cairothedino
+                                </a>
+                            </span>{" "}
+                            - in your paparazzi photos.
                         </p>
                         <p>
                             I'm a parrot, so I{" "}
@@ -84,10 +86,10 @@ const AboutPage = (props, context) => {
                             , and some important phrases, like{" "}
                             <span className="highlight">'I love you'</span> -
                             that always gets me treats ;) I also love blowing
-                            kisses and saying the wrong thing at the wrong time! 
-                            My human has repeatedly warned me not to try
-                            to eat the Raspberry Pi - but why else would they
-                            name something after two of my favourite foods?
+                            kisses and saying the wrong thing at the wrong time!
+                            My human has repeatedly warned me not to try to eat
+                            the Raspberry Pi - but why else would they name
+                            something after two of my favourite foods?
                         </p>
                         <p>
                             I hope to put up my{" "}
