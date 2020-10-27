@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 // import ScrollToNext from '@components/ScrollToNext';
 import "./style.scss";
-import logo from "@images/cairo-coconut.png";
+import logo from "@images/cairo-hoodiebro.png";
 
 const StoryPage = (props, context) => {
     const {
@@ -23,78 +23,52 @@ const StoryPage = (props, context) => {
             </style>
             <div className="content-grid">
                 <h1 style={{ color: colorPrimary }}>In the beginning...</h1>
-                <div className="about-wrapper">
+                <div className="story-wrapper">
                     <div
-                        className="about-content"
+                        className="story-content"
                         style={{ color: textPrimary }}
                     >
                         <p>
-                            living in Singapore. I have adopted a pair
-                            of human beings - whom I nicknamed{" "}
+                            I was hatched into a multi-subspecies family. 
+                            My bio mom was a petite little lady (probably some {" "}
+                            <span className="highlight"> Solomon Island</span>) 
+                            and my bio dad was a big fella 
+                            (he claimed to be {" "}
+                            <span className="highlight"> Red-Sided</span>, but probably had some {" "}
+                            <span className="highlight"> Aruensis</span> in him). 
+                            I've a couple of older brothers, but they already flew the coop by the time I hatched.
+                        </p>
+                        <p>
+                            I moved out of my bio parents' place and in with a cool guy, a real bro. 
+                            He fed me nectar of the gods (he called it formula), but best of all, 
+                            he taught me how to fly outside and find him again!
+                            Apparently it takes a lot of training (something about {" "}
+                            <span className="highlight"> recall</span> and {" "}
+                            <span className="highlight"> free flight</span>), but it was fun :D
+                        </p>
+                        <p>
+                            Flying was so much fun that I decided to take a few {" "}
+                            <span className="highlight"> solo joyflights</span> by myself.
+                            Once I took a week to sample mangos and papayas five kilometers away, 
+                            and I found myself at a balcony where some humans were chillin'.
+                            I'm a polite parrot myself, so I greeted them with my best {" "}
+                            <span className="highlight"> 'hello'</span>. 
+                            Well, next thing I know, these humans posted on the Book of Faces to find my homie! 
+                        </p>
+                        <p>
+                            Now, get this, my homie found them through the Book of Faces. 
+                            And he tried to prove to these humans that he's legit by telling them I {" "}
+                            <span className="highlight"> 'can only say hello'</span>. 
+                            *facetalon* sooo embarrassing.... Anyway, we proved our bromance when I used our secret call sign 
+                            (I called it 'the song for the nectar of the gods', he called it 'baby crying for formula').
+                        </p>
+                        <p>
+                            A few months after that, my dude (who was also kinda my landlord) broke the news 
+                            that he was building his nest with his hen and new hatchling. I said it was no prob - 
+                            I'll just move in with those humans I had scouted out while on their balcony. 
+                            And I've been with those humans, {" "}
                             <span className="highlight"> Seth</span> &{" "}
-                            <span className="highlight"> Cleavan</span> - 
-                            and I'm working on training them, so any advice on training humans is most welcome!
-                        </p>
-                        <p>
-                            A truly hatched and bred Singaporean, I currently live in{" "}
-                            <span className="highlight"> Joo Chiat</span> and
-                            enjoy chilling out in the East with my{" "}
-                            <i>parronts</i> (portmanteau of parrot and parent). 
-                            Say 'hi' if you see me and feel free to tag me - {" "}
-                            <span className="highlight">
-                            <a
-                                    href="https://www.instagram.com/cairothedino/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                  @cairothedino
-                                  </a>
-                                  </span> - in your paparazzi photos.
-                        </p>
-                        <p>
-                            I'm a parrot, so I{" "}
-                            <span className="highlight">
-                                {" "}
-                                fly and talk a lot
-                            </span>
-                            . Mostly not-so-chim words, like{" "}
-                            <span className="highlight">
-                                {" "}
-                                'hello', 'uh-oh', 'peek-a-boo'
-                            </span>
-                            , and some important phrases, like{" "}
-                            <span className="highlight">'I love you'</span> -
-                            that always gets me treats ;) I also love blowing
-                            kisses and saying the wrong thing at the wrong time! 
-                            My human has repeatedly warned me not to try
-                            to eat the Raspberry Pi - but why else would they
-                            name something after two of my favourite foods?
-                        </p>
-                        <p>
-                            I hope to put up my{" "}
-                            <span className="highlight">
-                                <a
-                                    href="https://www.instagram.com/cairothedino/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    instagram
-                                </a>
-                            </span>{" "}
-                            feed soon, but my humans are so busy all the time,
-                            especially{" "}
-                            <a
-                                href="https://github.com/lackdaz"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <span className="highlight">
-                                    {" "}
-                                    the developer
-                                </span>
-                            </a>
-                            . So I'm crossing my talons that it will happen
-                            soon.
+                            <span className="highlight"> Cleavan</span> ever since.
                         </p>
                     </div>
                 </div>
