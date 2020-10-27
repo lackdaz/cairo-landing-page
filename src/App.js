@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LandingPage from '@pages/LandingPage';
 import AboutPage from '@pages/AboutPage';
+import StoryPage from '@pages/StoryPage';
   // import PortfolioPage from '@pages/PortfolioPage';
 import ParallaxBackground from '@components/ParallaxBackground';
 import ScrollTop from '@components/ScrollTop';
@@ -27,6 +28,7 @@ initializeReactGA() {
           </Browser>
           <LandingPage />
           <AboutPage />
+          <StoryPage />
           {
             // <PortfolioPage />
           }
