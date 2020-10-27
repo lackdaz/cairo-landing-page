@@ -1,19 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ScrollToNext from '@components/ScrollToNext';
+// import ScrollToNext from '@components/ScrollToNext';
 import "./style.scss";
 import logo from "@images/cairo-coconut.png";
-import moment from "moment";
 
-
-const AboutPage = (props, context) => {
+const StoryPage = (props, context) => {
     const {
         theme: { colorPrimary, colorHighlight, bgPrimary, textPrimary },
     } = context;
-    const mbirthday = moment("2017-11-20");
-    const mnow = moment(moment.now());
-    const years = mnow.diff(mbirthday, "years");
-    const months = mnow.diff(mbirthday, "months") % 12;
 
     return (
         <div className="about-page" style={{ backgroundColor: bgPrimary }}>
@@ -28,26 +22,13 @@ const AboutPage = (props, context) => {
                 `}
             </style>
             <div className="content-grid">
-                <h1 style={{ color: colorPrimary }}>About</h1>
+                <h1 style={{ color: colorPrimary }}>In the beginning...</h1>
                 <div className="about-wrapper">
                     <div
                         className="about-content"
                         style={{ color: textPrimary }}
                     >
                         <p>
-                            Hello! I'm <span className="highlight">Cairo</span>{" "}
-                            (pronounced <i>chai-row</i>, or 菜肉), a {years}{" "}
-                            year and {months} months{" "}
-                            <span className="highlight">
-                                {" "}
-                                <a
-                                    href="https://eclectusparrotbreeders.com/about-eclectus.html"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    eclectus parrot
-                                </a>
-                            </span>{" "}
                             living in Singapore. I have adopted a pair
                             of human beings - whom I nicknamed{" "}
                             <span className="highlight"> Seth</span> &{" "}
@@ -121,13 +102,16 @@ const AboutPage = (props, context) => {
                     <img src={logo} alt="peekaboo" />
                 </div>
             </div>
-            <ScrollToNext pageSelector=".story-page" />
+            {
+                // TODO: add this selector
+                // <ScrollToNext pageSelector=".portfolio-page" />
+            }
         </div>
     );
 };
 
-AboutPage.contextTypes = {
+StoryPage.contextTypes = {
     theme: PropTypes.any,
 };
 
-export default AboutPage;
+export default StoryPage;
