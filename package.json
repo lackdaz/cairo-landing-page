@@ -101,6 +101,7 @@
   },
   "dependencies": {
     "js-yaml": "3.13.1",
+    "mem": "^4.0.0",
     "moment": "^2.22.2",
     "react-ga": "^2.5.3"
   }
