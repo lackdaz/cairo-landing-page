@@ -10,7 +10,7 @@ const StoryPage = (props, context) => {
     } = context;
 
     return (
-        <div className="about-page" style={{ backgroundColor: bgPrimary }}>
+        <div className="story-page" style={{ backgroundColor: bgPrimary }}>
             <style jsx="true">
                 {`
                     .highlight {
