@@ -1,4 +1,4 @@
-# Cairo
+# Welcome to Cairo's Landing Page
 
 This repo holds the fan page of a well-loved Eclectus Parrot named Cairo. 🎉
 
@@ -6,13 +6,13 @@ By having a website, he joins the glitterati of internet-famous pets and livestr
 
 You can see the fuzzball over here: [@cairothedino](https://www.instagram.com/cairothedino/?hl=en). All these pictures are posted with his consent.
 
-## Instructions for contributing
+## Instructions for contributing [Hacktoberfest 2021]
 
-1. Read the [CONTRIBUTING.md](https://github.com/lackdaz/cairo-landing-page/blob/dev/CONTRIBUTING.md).
-1. Look through the issues for something a feature to fix/solve, or propose something reasonable.
+1. Look through the issues or read the [CONTRIBUTING.md](https://github.com/lackdaz/cairo-landing-page/blob/dev/CONTRIBUTING.md).
+1. I generally accept most PRs as long as they are reasonable and do not break the website.
 1. Use polite, child-friendly language. Parrots imitate and pick up coarse language easily.
-1. Run `yarn start` to view the pages. Do not introduce any breaking changes. Check the browser console for any errors.
-1. Submit a pull request and I'll review it as soon as I'm available.
+1. Fork the repository and run `yarn start` to view the pages. The react development server should start up and you can view your changes locally - hot-reload is amazing!
+1. Submit a pull request to an upstream branch and I'll review it ASAP.
 
 The deployable fies can be found in `master` branch.
 
