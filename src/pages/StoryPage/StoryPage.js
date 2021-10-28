@@ -30,16 +30,15 @@ const StoryPage = (props, context) => {
                     >
                         <p>
                             I was hatched into a multi-subspecies family. 
-                            My bio mom was a petite little lady (probably some {" "}
+                            My bio mom was probably some {" "}
                             <span className="highlight"> Solomon Island</span>) 
-                            and my bio dad was a big fella 
-                            (he claimed to be {" "}
+                            and my bio dad claimed to be {" "}
                             <span className="highlight"> Red-Sided</span>, but probably had some {" "}
-                            <span className="highlight"> Aruensis</span> in him). 
+                            <span className="highlight"> Aruensis</span> in him. 
                             I've a couple of older brothers, but they already flew the coop by the time I hatched.
                         </p>
                         <p>
-                            I moved out of my bio parents' place and in with a cool guy, a real bro. 
+                            A few months later, I moved in with a cool guy. 
                             He fed me nectar of the gods (he called it formula), but best of all, 
                             he taught me how to fly outside and find him again!
                             Apparently it takes a lot of training (something about {" "}
@@ -48,22 +47,21 @@ const StoryPage = (props, context) => {
                         </p>
                         <p>
                             Flying was so much fun that I decided to take a few {" "}
-                            <span className="highlight"> solo joyflights</span> by myself.
+                            <span className="highlight"> solo joyflights</span> without the human.
                             Once I took a week to sample mangos and papayas five kilometers away, 
                             and I found myself at a balcony where some humans were chillin'.
-                            I'm a polite parrot myself, so I greeted them with my best {" "}
+                            I'm a polite parrot, so I greeted them with my best {" "}
                             <span className="highlight"> 'hello'</span>. 
-                            Well, next thing I know, these humans posted on the Book of Faces to find my homie! 
+                            Well, next thing I know, these humans posted on the Book of Faces to find my original human! 
                         </p>
                         <p>
-                            Now, get this, my homie found them through the Book of Faces. 
+                            Now, my human found them through the Book of Faces. 
                             And he tried to prove to these humans that he's legit by telling them I {" "}
                             <span className="highlight"> 'can only say hello'</span>. 
-                            *facetalon* sooo embarrassing.... Anyway, we proved our bromance when I used our secret call sign 
-                            (I called it 'the song for the nectar of the gods', he called it 'baby crying for formula').
+                            *facetalon* sooo embarrassing.... Long story short, I went back home with my original human.
                         </p>
                         <p>
-                            A few months after that, my dude (who was also kinda my landlord) broke the news 
+                            A few months after that, my original human broke the news 
                             that he was building his nest with his hen and new hatchling. I said it was no prob - 
                             I'll just move in with those humans I had scouted out while on their balcony. 
                             And I've been with those humans, {" "}
