@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 // import ScrollToNext from '@components/ScrollToNext';
 import "./style.scss";
-import logo from "@images/cairo-hoodiebro.png";
+import logo from "@images/cairo-bflowers.png";
 
 const StoryPage = (props, context) => {
     const {
