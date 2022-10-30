@@ -9,6 +9,7 @@ const SocialIcons = (props, context) => {
   return (
     <div className="social-icons animate-icons">
       <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/cairothedino" style={ { color: colorPrimary } }><i className="fab fa-instagram"></i></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100039086182081" style={ { color: colorPrimary } }><i className="fab fa-facebook"></i></a>
     </div>
   );
 };
