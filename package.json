@@ -102,7 +102,7 @@
   "dependencies": {
     "js-yaml": "3.13.1",
     "mem": "^4.0.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "path-parse": "1.0.7",
     "react-ga": "^2.5.3",
     "tmpl": "1.0.5",
