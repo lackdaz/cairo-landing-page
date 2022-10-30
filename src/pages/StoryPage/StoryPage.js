@@ -31,20 +31,68 @@ const StoryPage = (props, context) => {
                         <p>
                             I was hatched into a multi-subspecies eclectus family: 
                             {" "}
-                            <span className="highlight"> Solomon Island</span>), 
+                            <span className="highlight"> 
+                                <a
+                                    href="https://eclectus-parrots.com/subspecies-info-solomon-island-eclectus/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                Solomon Island
+                                </a>
+                            </span>, 
                             {" "}
-                            <span className="highlight"> Red-Sided</span>, and 
+                            <span className="highlight"> 
+                                <a
+                                    href="https://eclectus-parrots.com/subspecies-info-new-guinea-eclectus/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                Red-Sided
+                                </a>
+                            </span>, and 
                             {" "}
-                            <span className="highlight"> Aruensis</span>. 
+                            <span className="highlight"> 
+                                <a
+                                    href="https://eclectus-parrots.com/subspecies-info-aru-island-eclectus/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                Aruensis
+                                </a>
+                            </span>. 
                             My older brothers already flew the coop by the time I hatched, so it was a cool human who gave my name. 
                             He also taught me how to fly outside and find him again! 
                             Apparently it takes a lot of training (something about {" "}
-                            <span className="highlight"> recall</span> and {" "}
-                            <span className="highlight"> free flight</span>), but it was fun :D
+                            <span className="highlight"> 
+                                <a
+                                    href="https://vimeo.com/ondemand/parrotflight"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                recall
+                                </a>
+                            </span> and {" "}
+                            <span className="highlight"> 
+                                <a
+                                    href="https://blogpamelaclarkonline.com/2019/06/26/commentary-on-free-flight-part-one/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                free flight
+                                </a>
+                            </span>), but it was fun :D
                         </p>
                         <p>
                             Flying was so much fun that I decided to take a few {" "}
-                            <span className="highlight"> solo joyflights</span> without the human.
+                            <span className="highlight">
+                                <a
+                                    href="https://goodbirdinc.blogspot.com/2008/08/when-flighted-parrot-escapes.html"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                solo joyflights
+                                </a>
+                            </span> without the human.
                             Once, I found myself at a balcony where some humans were chillin'.
                             I'm a polite parrot, so I greeted them with my best {" "}
                             <span className="highlight"> 'hello'</span>. 
