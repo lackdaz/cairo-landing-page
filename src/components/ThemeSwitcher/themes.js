@@ -20,16 +20,16 @@ const themes = [
   {
     name: 'blue-alt',
     colorPrimary: '#FAFAFA',
-    colorAlternate: '#4ea9da',
-    colorHighlight: '#2a93cb',
+    colorAlternate: '#2376a3',
+    colorHighlight: '#1a587a',
     textPrimary: '#FAFAFA',
     navAlpha: 'rgba(78, 169, 218, 0.75)'
   },
   {
     name: 'cyan-alt',
     colorPrimary: '#FAFAFA',
-    colorAlternate: '#3dc0b0',
-    colorHighlight: '#35a698',
+    colorAlternate: '#26796f',
+    colorHighlight: '#1c5952',
     textPrimary: '#FAFAFA',
     navAlpha: 'rgba(61, 192, 176, 0.75)'
   },
@@ -51,7 +51,7 @@ const themes = [
   },
   {
     name: 'orange',
-    colorPrimary: '#e17421',
+    colorPrimary: '#D26B1D',
     colorAlternate: '#FAFAFA',
     colorHighlight: '#f9e4d5',
     textPrimary: '#202121',
