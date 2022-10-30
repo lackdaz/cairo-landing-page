@@ -106,6 +106,6 @@
     "path-parse": "1.0.7",
     "react-ga": "^2.5.3",
     "tmpl": "1.0.5",
-    "url-parse": "1.5.3"
+    "url-parse": "1.5.9"
   }
 }
