@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import LandingPage from "@pages/LandingPage";
 import AboutPage from "@pages/AboutPage";
 import StoryPage from "@pages/StoryPage";
-import MorePage from "@pages/StoryPage";
+import MorePage from "@pages/MorePage";
 // import PortfolioPage from '@pages/PortfolioPage';
 import ParallaxBackground from "@components/ParallaxBackground";
 import ScrollTop from "@components/ScrollTop";
@@ -30,9 +30,6 @@ class App extends Component {
                     <AboutPage />
                     <StoryPage />
                     <MorePage />
-                    {
-                        // <PortfolioPage />
-                    }
                     <ScrollTop />
                     <Footer />
                 </ThemeSwitcher>
