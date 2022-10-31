@@ -86,9 +86,10 @@ const AboutPage = (props, context) => {
                             , and some important phrases, like{" "}
                             <span className="highlight">'I love you'</span> -
                             that always gets me treats ;) I also love blowing
-                            kisses and saying the wrong thing at the wrong time! (Or is it the right thing at the right time?)
-                            My human has repeatedly warned me not to try to eat
-                            the Raspberry Pi - but why else would they name
+                            kisses and saying the wrong thing at the wrong time!
+                            (Or is it the right thing at the right time?) My
+                            human has repeatedly warned me not to try to eat the
+                            Raspberry Pi - but why else would they name
                             something after two of my favourite foods?
                         </p>
                         <p>

@@ -22,17 +22,18 @@ const StoryPage = (props, context) => {
                 `}
             </style>
             <div className="content-grid">
-                <h1 style={{ color: colorPrimary }}>Peekaboo!</h1>
+                <h1 style={{ color: colorPrimary }}>Play-time!</h1>
                 <div className="story-wrapper">
                     <div
                         className="story-content"
                         style={{ color: textPrimary }}
                     >
                         <p>
-                            I love to play! My favorite games are playing hide
-                            and seek and stealing almonds. I like exploring
-                            under dark blankets because they are so full of
-                            mystery!
+                            I love to play! My favorite games are playing
+                            hide-and-seek and stealing almonds. I like exploring
+                            under dark spaces because they are so full of
+                            mystery! I get most excited when I find my human
+                            hiding under a blanket. No one escapes me!
                         </p>
                     </div>
                 </div>
