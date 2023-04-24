@@ -6,7 +6,7 @@ By having a website, he joins the glitterati of internet-famous pets and livestr
 
 You can see the fuzzball over here: [@cairothedino](https://www.instagram.com/cairothedino/?hl=en). All these pictures are posted with his consent.
 
-## Instructions for contributing [Hacktoberfest 2021]
+## Instructions for contributing [Hacktoberfest 2022]
 
 1. Look through the issues or read the [CONTRIBUTING.md](https://github.com/lackdaz/cairo-landing-page/blob/dev/CONTRIBUTING.md).
 1. I generally accept most PRs as long as they are reasonable and do not break the website.
